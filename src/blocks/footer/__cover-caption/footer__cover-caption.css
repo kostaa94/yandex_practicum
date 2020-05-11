@@ -1,0 +1,20 @@
+.footer__cover-caption {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0 32%;
+    text-align: center;
+    margin: 0;
+}
+
+@media(max-width: 1024px) {
+    .footer__cover-caption {
+        padding: 0 28%;
+    }
+}
+@media(max-width: 375px) {
+    .footer__cover-caption {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 0;
+    }
+}

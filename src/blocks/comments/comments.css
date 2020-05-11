@@ -1,0 +1,14 @@
+@import url(__title/comments__title.css);
+@import url(__text/comments__text.css);
+@import url(__list/comments__list.css);
+
+.comments {
+    display: grid;
+    gap: 48px;
+}
+
+@media (max-width: 768px) {
+    .comments {
+        gap: 24px;
+    }
+}

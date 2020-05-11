@@ -1,0 +1,10 @@
+.page__places {
+    margin-top: 92px;
+}
+
+
+@media(max-width: 375px) {
+    .page__places {
+        margin-top: 64px;
+    }
+}

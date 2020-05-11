@@ -1,0 +1,11 @@
+.footer__panel {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+@media(max-width: 375px) {
+    .footer__panel {
+        flex-direction: column;
+    }
+}

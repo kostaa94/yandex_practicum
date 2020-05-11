@@ -1,0 +1,7 @@
+.clip__play-btn {
+    background-image: url(/images/icon_play.svg);
+    background-repeat: no-repeat;
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+}

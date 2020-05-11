@@ -1,0 +1,8 @@
+.page__footer {
+    margin-top: 102px;
+}
+@media(max-width: 375px) {
+    .page__footer {
+        margin-top: 48px;
+    }
+}

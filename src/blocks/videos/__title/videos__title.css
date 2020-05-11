@@ -1,0 +1,23 @@
+.videos__title {
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0 10%;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .videos__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 375px) {
+    .videos__title {
+        font-size: 32px;
+        line-height: 35px;
+        padding: 0;
+    }
+}

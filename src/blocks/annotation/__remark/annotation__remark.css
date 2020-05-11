@@ -1,0 +1,11 @@
+.annotation__remark {
+    list-style: none;
+    padding: 0;
+    font-size: 13px;
+}
+
+@media(max-width: 375px) {
+    .annotation__remark {
+        font-size: 12px;
+    }
+}

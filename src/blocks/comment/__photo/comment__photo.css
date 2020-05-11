@@ -1,0 +1,10 @@
+.comment__photo {
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .comment__photo {
+        justify-self: center;
+    }
+}
+

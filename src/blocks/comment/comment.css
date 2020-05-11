@@ -1,0 +1,10 @@
+@import url(__author/comment__author.css);
+@import url(__photo/comment__photo.css);
+@import url(__text/comment__text.css);
+
+@media (max-width: 768px) {
+    .comment {
+        display: grid;
+    }
+}
+

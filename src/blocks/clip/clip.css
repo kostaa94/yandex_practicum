@@ -1,0 +1,27 @@
+@import url(__director/clip__director.css);
+@import url(__duration/clip__duration.css);
+@import url(__play-btn/clip__play-btn.css);
+@import url(__title/clip__title.css);
+@import url(_cover/clip_cover_kamchatka.css);
+@import url(_cover/clip_cover_observatory.css);
+
+.clip {
+    display: grid;
+    padding: 30px;
+    box-sizing: border-box;
+    grid-template-rows: 135px 24px 91px 1fr;
+}
+
+@media(max-width: 1024px) {
+    .clip {
+        grid-template-rows: 95px 24px 91px 1fr;
+    }
+
+}
+
+@media(max-width: 375px) {
+    .clip {
+        padding: 24px;
+        grid-template-rows: minmax(56px,auto) 26px auto 10%;
+    }
+}

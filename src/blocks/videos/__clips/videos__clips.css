@@ -1,0 +1,14 @@
+.videos__clips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 24px;
+}
+
+
+@media(max-width: 375px) {
+    .videos__clips {
+        grid-template: 1fr 1fr / 1fr;
+        gap: 8px;
+    }
+}

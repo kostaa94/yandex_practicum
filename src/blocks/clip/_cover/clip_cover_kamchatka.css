@@ -1,0 +1,8 @@
+.clip_cover_kamchatka {
+    background-image: url(/images/__item-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 583px;
+    max-height: 323px;
+    border-radius: 5px;
+}

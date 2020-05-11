@@ -1,0 +1,45 @@
+.footer__cover {
+    background-image: url(/images/cover-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 594px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 48px;
+    margin-bottom: 160px;
+}
+
+@media(max-width: 1024px) {
+    .footer__cover {
+        max-width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);
+        height: 562px;
+    }
+}
+
+@media(max-width: 768px) {
+    .footer__cover {
+        height: 500px;
+    }
+}
+
+@media(max-width: 375px) {
+    .footer__cover {
+        height: 272px;
+        margin-bottom: 64px;
+        padding: 24px;
+    }
+}
+
+@media(max-width: 320px) {
+    .footer__cover {
+        height: 216px;
+        
+    }
+}

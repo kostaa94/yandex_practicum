@@ -1,0 +1,6 @@
+@import url(_active/header__lang_active.css);
+
+.header__lang {
+    font-size: 24px;
+    margin-left: 18px;
+}

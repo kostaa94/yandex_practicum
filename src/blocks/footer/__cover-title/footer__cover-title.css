@@ -1,0 +1,23 @@
+.footer__cover-title {
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+@media(max-width: 1024px) {
+    .footer__cover-title {
+        max-width: 550px;
+    }
+}
+
+@media(max-width: 375px) {
+    .footer__cover-title {
+        font-size: 32px;
+        line-height: 35px;
+        padding-bottom: 17px;
+        max-width: 240px;
+    }
+}

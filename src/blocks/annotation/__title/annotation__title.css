@@ -1,0 +1,14 @@
+.annotation__title {
+    margin: 0 0 48px 0;
+    font-size: 52px;
+    font-weight: 900;
+}
+
+
+@media(max-width: 375px) {
+    .annotation__title {
+        font-size: 32px;
+        margin-bottom: 32px;
+        line-height: 35x;
+    }
+}

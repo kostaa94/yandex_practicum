@@ -1,0 +1,14 @@
+.comments__list {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+}
+@media (max-width: 768px) {
+    .comments__list {
+        gap: 47px;
+        grid-template: 1fr / 1fr;
+        max-width: 382px;
+        justify-self: center;
+    }
+}

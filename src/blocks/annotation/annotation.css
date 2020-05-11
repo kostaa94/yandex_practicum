@@ -1,0 +1,8 @@
+@import url(__remark-item/annotation__remark-item.css);
+@import url(__remark/annotation__remark.css);
+@import url(__text/annotation__text.css);
+@import url(__title/annotation__title.css);
+
+.annotation {
+    max-width: 683px;
+}

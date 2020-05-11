@@ -1,0 +1,14 @@
+.comments__text {
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    padding: 0 20%;
+    margin: 0;
+}
+@media(max-width: 375px) {
+    .comments__text {
+        font-size: 16px;
+        line-height: 23px;
+        padding: 0;
+    }
+}

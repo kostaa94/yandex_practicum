@@ -1,0 +1,19 @@
+{
+  "name": "russia_travel",
+  "version": "1.0.0",
+  "description": "Travel across the wild areas of Russian landscapes",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start -s 'src/' -f 'src/*'"
+  },
+  "keywords": [
+    "yandex",
+    "practicum"
+  ],
+  "author": "Ivan Novoselov <kostaa94@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}

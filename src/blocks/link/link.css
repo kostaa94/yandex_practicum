@@ -1,0 +1,10 @@
+@import url(_underlined/link_underlined.css);
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #d6d6d6;
+}

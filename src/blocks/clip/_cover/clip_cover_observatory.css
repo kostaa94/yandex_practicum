@@ -1,0 +1,8 @@
+.clip_cover_observatory {
+    background-image: url(/images/__item-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 583px;
+    max-height: 323px;
+    border-radius: 5px;
+}

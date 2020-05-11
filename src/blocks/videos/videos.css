@@ -1,0 +1,15 @@
+@import url(__clips/videos__clips.css);
+@import url(__text/videos__text.css);
+@import url(__title/videos__title.css);
+
+.videos {
+    display: grid;
+    gap: 48px;
+}
+
+
+@media(max-width: 375px) {
+    .videos {
+        gap: 16px;
+    }
+}
